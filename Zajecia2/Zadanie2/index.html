@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employment Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Employment Form</h1>
+        <form>
+            <div class="info">
+                <label class="class-label">
+                    First Name 
+                    <input type="text" required/> 
+                </label>
+                <label class="class-label">
+                    Last Name 
+                    <input type="text" required/>
+                </label>
+            
+            </div>
+            <div class="info">
+                <label class="class-label">Email  <input type="email" required/></label>
+               
+                <label class="class-label">Phone <input type="tel" required pattern="[0-9]{3} [0-9]{3} [0-9]{3}" placeholder="#########" /></label>
+                
+                <label class="class-label">Date of Birth <input type="date" required/></label>
+
+            </div>
+            <div class="info">
+                <label class="class-label">Gender
+                    <select required>
+                        <option>Male</option>
+                        <option>Female</option>
+                        <option>Other</option>
+                    </select>
+                </label>
+            </div>
+            <label>What are you looking for</label>
+             <div class="info">
+                <div class="radio-options">
+                    <label class="class-radio"><input id="software" name="looking" type="radio" required/>Software Engineer</label>
+                    
+                    <label class="class-radio"><input id="ux" name="looking" type="radio"/>UX Designer</label>
+                
+                    <label class="class-radio"><input id="analytics" name="looking" type="radio"/>Analytics Specialist</label>
+                    
+                    <label class="class-radio"><input id="manager" name="looking" type="radio"/>Project Manager</label>
+                </div>
+            </div>
+            <label id="language">Which programming languages do you know?</label>
+            <div class="info">
+                <label class="class-radio"> <input id="java" name="java" type="checkbox"/>Java</label>
+               
+                <label class="class-radio"> <input id="javascript" name="javascript" type="checkbox"/>JavaScript</label>
+              
+                <label class="class-radio">  <input id="c#" name="c#" type="checkbox"/>C#</label>
+               
+                <label class="class-radio"> <input id="kotlin" name="kotlin" type="checkbox"/>Kotlin</label>
+              
+                <label class="class-radio">  <input id="python" name="python" type="checkbox"/>Python</label>
+              
+                <label class="class-radio"> <input id="scala" name="scala" type="checkbox"/>Scala</label>
+            </div>
+            <div class="info">
+                <label class="class-label">Message <textarea required ></textarea></label>
+            </div>
+            <div class="buttons">
+            <button class="reset" type="reset">Reset</button>
+            <button class="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

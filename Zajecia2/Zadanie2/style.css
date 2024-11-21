@@ -1,0 +1,128 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+    
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    margin-left: 0;
+    margin-right: 0;
+    height: 500px;
+}
+
+h1{
+    color: #ea6a35;
+}
+form{
+    color:#ea6a35;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    min-height: 500px;
+    font-size: 15px;
+    
+}
+
+.info{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    gap: 10px;
+    justify-content:space-between;
+    align-content: flex-start;
+    margin-bottom: 10px;
+   
+}
+.class-label{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    flex-direction: column;
+}
+
+.class-label input{
+    height: 50px;
+    border: 2px #dedddd solid;
+    border-radius: 3px;
+    outline: none;
+}
+
+.class-label input:focus{
+    border:2px #ea6a35 solid;
+}
+
+
+.class-label select{
+    height: 50px;
+    border: 2px #dedddd solid;
+    border-radius: 3px;
+    outline: none;
+}
+
+.class-label select:focus{
+    border:2px #ea6a35 solid;
+}
+
+.class-label textarea{
+    border: 2px #dedddd solid;
+    border-radius: 3px;
+    min-height: 100px;
+    resize: none;
+    outline: none;
+}
+
+.class-label textarea:focus{
+    border:2px #ea6a35 solid;
+}
+
+
+.radio-options{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    flex-direction: row;
+}
+
+.class-radio{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content:center;
+    align-content:center;
+    
+}
+
+
+.buttons{
+    margin-top: 100px;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.reset{
+    width: 30%;
+    height: 40px;
+    background-color: #ea6a35;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+
+.submit{
+    width: 70%;
+    height: 40px;
+    background-color: #ea6a35;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
