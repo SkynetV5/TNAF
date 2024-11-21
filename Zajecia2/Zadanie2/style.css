@@ -126,3 +126,17 @@ form{
     border: none;
     border-radius: 3px;
 }
+
+@media (width <= 700px) {
+    .info{
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    .class-label{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .class-radio{
+        flex-wrap: wrap;
+    }
+}
