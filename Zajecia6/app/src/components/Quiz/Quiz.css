@@ -1,0 +1,25 @@
+.quiz{
+    width: 800px;
+    height: 350px;
+    background-color: blanchedalmond;
+    border-radius: 10px;
+    text-align: start;
+    padding-top: 2px;
+    padding-left: 10px;
+}
+
+.result{
+    width: 500px;
+    height: 100px;
+    background-color: blanchedalmond;
+    border-radius: 10px;
+    text-align: start;
+    padding-top: 2px;
+    padding-left: 10px
+}
+.buttonPosition{
+    margin-top: 25px;
+    margin-right: 25px;
+    display: flex;
+    justify-content: flex-end;
+}

@@ -1,0 +1,5 @@
+{
+  "devDependencies": {
+    "@skynetv5/zadanie2": "file:../Zadanie2"
+  }
+}
